@@ -175,3 +175,17 @@ body {
 .btn:hover{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+@media screen and (max-width:400px){
+    .card-container {
+        flex-direction: column;
+    }
+    .result {
+        width: 100%;
+    }
+    .summary {
+        width: 100%;
+    }
+    .info {
+        min-width: 100%;
+    }
+}
