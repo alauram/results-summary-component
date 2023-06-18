@@ -175,7 +175,7 @@ body {
 .btn:hover{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:375px){
     .card-container {
         flex-direction: column;
     }
